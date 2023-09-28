@@ -8,13 +8,14 @@ import menu from '../../assets/menu.png';
 
 
 const Navbar = () => {
+    // onButtonClick from geeksforgeeks.org
     const onDownloadClick = () => {
-        fetch('resume.pdf').then(response => {
+        fetch('Ren-Rojas-Resume.pdf').then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'resume.pdf';
+                alink.download = 'Ren-Rojas-Resume.pdf';
                 alink.click();
             })
         })

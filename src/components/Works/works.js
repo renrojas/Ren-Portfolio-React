@@ -13,14 +13,28 @@ const Works = () => {
         <section id="works">
             <h2 className="worksTitle">My Portfolio</h2>
             <div className="worksImgs">
-                <img src={PupperPicker} alt="Pupper" className="worksImg" />
-                <img src={StarWars} alt="" className="worksImg" />
-                <img src={PwGenerator} alt="" className="worksImg" />
-                <img src={NoteTaker} alt="" className="worksImg" />
-                <img src={QueerSource} alt="" className="worksImg" />
-                <img src={Horiseon} alt="" className="worksImg" />
+                <a className='worksImgContainer' href="https://fourstringfunk.github.io/dog-website/" target="_blank">
+                    <img src={PupperPicker} alt="Pupper" className="worksImg" />
+                </a>
+                <a className='worksImgContainer' href="https://renrojas.github.io/star-wars-quiz/" target="_blank">
+                    <img src={StarWars} alt="" className="worksImg" />
+                </a>
+                <a className='worksImgContainer' href="https://renrojas.github.io/password-generator/" target="_blank">
+                    <img src={PwGenerator} alt="" className="worksImg" />
+                </a>
+                <a className='worksImgContainer' href="https://glacial-sea-23660-045a64e39b85.herokuapp.com/" target="_blank">
+                    <img src={NoteTaker} alt="" className="worksImg" />
+                </a>
+                <a className='worksImgContainer' href="https://obscure-reaches-55046-bf910aba05ce.herokuapp.com/" target="_blank">
+                    <img src={QueerSource} alt="" className="worksImg" />
+                </a>
+                <a className='worksImgContainer' href="https://renrojas.github.io/Horiseon/" target="_blank">
+                    <img src={Horiseon} alt="" className="worksImg" />
+                </a>
             </div>
-            <button className="workBtn">Take a look at my GitHub</button>
+            <a href="https://github.com/renrojas" target="_blank">
+                <button className="workBtn">Take a look at my GitHub</button>
+            </a>
         </section>
     );
 }

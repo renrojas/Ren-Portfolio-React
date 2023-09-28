@@ -28,9 +28,12 @@ const Contact = () => {
                 <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
                 <button type="submit" value="Send" className="submitBtn">Submit</button>
                 <div className="links">
-                    <img src={LinkedIn} alt="LinkedIn Icon" className="link" />
-                    <img src={GitHub} alt="GitHub Icon" className="link" />
-
+                    <a href="https://www.linkedin.com/in/karensrojas/" target="_blank">
+                        <img src={LinkedIn} alt="LinkedIn Icon" className="link" />
+                    </a>
+                    <a href="https://github.com/renrojas" target="_blank">
+                        <img src={GitHub} alt="GitHub Icon" className="link" />
+                    </a>
                 </div>
             </form>
         </section>
