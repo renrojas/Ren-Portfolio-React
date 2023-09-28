@@ -5,7 +5,7 @@ import GitHub from '../../assets/github-mark.png'
 
 const Contact = () => {
     return (
-        <section className="contactPage">
+        <section className="contactPage" id="contact">
             <h1 className="contactPageTitle">Contact Me</h1>
             <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>
             <form className="contactForm">
