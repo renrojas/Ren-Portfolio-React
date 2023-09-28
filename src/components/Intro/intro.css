@@ -1,7 +1,6 @@
 #intro {
     height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -36,7 +35,7 @@
     
 }
 .btn {
-    background: white;
+    background: #FF5F9E;
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
     border: none;
