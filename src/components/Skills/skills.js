@@ -12,7 +12,7 @@ const Skills = () => {
                     <img src={WebDesign} alt="Web" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Web Design</h2>
-                        <p>I recently had the opportunity to be a full stack developer and learn about website design by creating applications by myself. Growing up, I had some interest in writing code but never took the chance to actually learn it. I now completed a certificate in full stack website development and I am excited where this path takes me. Creating websites and applications has become a new passion of mine and I can't wait to see how much more I learn and grow.</p>
+                        <p>I recently had the opportunity to be a full stack developer and learn about website design by creating applications by myself. Growing up, I had some interest in writing code but never took the chance to actually learn it. I now completed a certificate in full stack website development and I am excited where this path will take me. Creating websites and applications has become a new passion of mine and I can't wait to see how much more I learn and grow.</p>
                     </div>
                 </div>
             </div>
