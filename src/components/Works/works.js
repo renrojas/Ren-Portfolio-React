@@ -32,8 +32,8 @@ const Works = () => {
                     <img src={Horiseon} alt="" className="worksImg" />
                 </a>
             </div>
-            <a href="https://github.com/renrojas" target="_blank">
-                <button className="workBtn">Take a look at my GitHub</button>
+            <a href="https://github.com/renrojas?tab=repositories" target="_blank">
+                <button className="workBtn">Take a look at my GitHub Repositories</button>
             </a>
         </section>
     );
