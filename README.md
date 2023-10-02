@@ -14,16 +14,16 @@ Heroku: https://cryptic-ridge-66267-e6479b916eed.herokuapp.com
 
 ## Usage
 Welcome to my React Portfolio. From the intro page, you have the options to navigate through the nav bar (read about me, see my portfolio, download my resume)  and contact me.
-![homepage]()
+![homepage](./src/assets/homepage.png)
 
 On the About Me section, you will learn a little about me and the type of work I do. 
-![search]()
+![about me](./src/assets/about-me.png)
 
 In the Portfolio section, you can check out some projects I have done by clicking on a project and seeing the live webpages. To see the repositories you can click on "Take a look at my GitHub Repositories"
-![sign up]()
+![portfolio](./src/assets/my-portfolio.png)
 
 In the Contact section, you will be able to access a form which you can use to contact me directly which will send me an email with your message. You will also be able to see icons for my LinkedIn and my GitHub.
-![save book]()
+![contact me](./src/assets/contact-me.png)
 
 
 ## Credits
